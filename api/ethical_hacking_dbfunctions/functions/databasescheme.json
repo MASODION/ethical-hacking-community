@@ -1,0 +1,27 @@
+{
+    "users":
+    {
+        "email": "liviu.dragnea97@e-uvt.ro",
+        "userPassword": "o parola",
+        "userCoins": 0,
+        "userType": 1,
+        "userId": "4n356EFNpDYsmhksh2hYrCM3dmH3",
+        "createdAt": "2020-03-15T21:22:55.324Z"
+    },
+    "posts":
+    {
+        "title": "this is a post",
+        "content": "this is the content of the post",
+        "createdAt": "2020-03-15T21:22:55.324Z",
+        "creator": "4n356EFNpDYsmhksh2hYrCM3dmH3",
+        "prize": 100
+    },
+    "responses":
+    {
+        "content": "this is a response content",
+        "creator": "4n356EFNpDYsmhksh2hYrCM3dmH3",
+        "createdAt": "2020-03-15T21:22:55.324Z",
+        "post": "1OjeQaS605LqvBnBl9mg",
+        "title": "this is the first replys"
+    }
+}

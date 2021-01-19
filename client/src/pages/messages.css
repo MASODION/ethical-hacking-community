@@ -1,0 +1,70 @@
+.scrollable {
+    position: relative;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .scrollable2 {
+    position: relative;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    background: white;
+    grid-row-start: 1;
+  }
+
+  .message-list-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .messenger {
+    display: grid;
+    width: 100%;
+    height: 77vh;
+    background: #eeeef1;
+  }
+
+  .messengerconv {
+    display: grid;
+    width: 100%;
+    height: 84vh;
+    background: #eeeef1;
+  }
+
+  .messenger2 {
+    display: grid;
+    width: 100%;
+    height: 7vh;
+    background: #eeeef1;
+  }
+
+  .footer {
+    grid-column-start: 2;
+    background: white;
+  }
+
+  .compose {
+    padding: 3px;
+    display: flex;
+    position: relative;
+    width: calc(100% - 20px);
+    margin-left: 10px;
+  }
+
+  .compose-input {
+    flex: 1;
+    border: none;
+    font-size: 14px;
+    background: none;
+    width: 300;
+    height: 6vh !important;
+    width: 700px;
+  }

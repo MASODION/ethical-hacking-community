@@ -1,0 +1,20 @@
+html,
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    background-color: rgb(149,149,149);
+}
+.container{
+  margin: 80px auto 0 auto;
+  max-width: 1200px;
+}
+.card{
+  background-color: rgb(204, 255, 229);
+}
+.nav-container{
+  margin: auto;
+}
+a{
+  text-decoration: none;
+}
